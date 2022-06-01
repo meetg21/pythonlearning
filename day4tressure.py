@@ -14,7 +14,7 @@ a = int(position[0])
 b = int(position[1])
 # print(a,b)
 row = map[b-1]
-row[a-1]=Y
+row[a-1]="Y"
 
 # print(map)
 print(f"{row1}\n{row2}\n{row3}")
